@@ -22,13 +22,25 @@ body{
     align-items: center;
 
 }
-#whatwedo{
+#wettin{
     width: 100%;
     height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
 #portfolio{
     width: 100%;
     height: 70vh;
+    
+
+
+
+
+
+
 }
 #portfolio h5{
     display: flex;
@@ -37,5 +49,6 @@ body{
 
 
 }
+
 
    
