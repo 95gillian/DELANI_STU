@@ -1,0 +1,33 @@
+body{
+    width: 100%;
+    height: 100vh;
+}
+#aboutus{
+    width: 100%;
+    height: 50vh;
+}
+#aboutus h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#services{
+    width: 100%;
+    height: 50vh;
+
+}
+#services h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#whatwedo{
+    width: 100%;
+    height: 30vh;
+}
+#portfolio{
+    width: 100%;
+    height: 70vh;
+}
+   
