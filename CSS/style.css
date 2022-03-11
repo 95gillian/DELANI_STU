@@ -47,6 +47,12 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+
+#cd2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
  .card{
     display: flex;
     align-items: center;
@@ -54,7 +60,14 @@ body{
     
 }
 .card img{
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+.card img:hover{
+    transition: 0.5;
+
+}
+
 
 
