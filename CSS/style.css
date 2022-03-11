@@ -33,28 +33,24 @@ body{
 
 #portfolio{
     width: 100%;
-    height: 70vh;
-    
-
-
-
-
-
+    height: 70vh
 
 }
 #portfolio h5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 #portfolio img{
-   
-    width: 400px;
-    height: 70vh;
     display: flex;
+    align-items: center;
     justify-content: center;
+}
+.text-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 
