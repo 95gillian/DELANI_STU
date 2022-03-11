@@ -33,26 +33,28 @@ body{
 
 #portfolio{
     width: 100%;
-    height: 70vh
-
+    height: 90vh;
 }
 #portfolio h5{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-#portfolio img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.text-center{
     display: flex;
     align-items: center;
     justify-content: center;
 
+
+}
+#cd1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ .card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.card img{
+    
 }
 
 
-
-   
