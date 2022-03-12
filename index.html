@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+   
     <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
     
     <title>Document</title>
 </head>
@@ -19,10 +20,11 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="/IMAGES/h_img.jpg" class="d-block w-100" alt="..." width="1000px">
+                    <img src="/IMAGES/h_img.jpg" class="d-block w-100"width="1000px">
                     <div class="carousel-caption d-none d-md-block">
-                      <h5>First slide label</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
+                      <h5  align="center">WELCOME</h5>
+                      <h5 align="center">TO DELANI STUDIOS</h5>
+                      <p align="center">Amazing people are making amazing designs in a fun environment</p>
                     </div>
                   </div>
                  
@@ -35,8 +37,13 @@
     <!---------------------------------------------------------------------------about us-------------------->
     <div class="row" id="aboutus">
         <div class="col-md-12">
-            <h4>ABOUT US</h4>
-            <p></p>
+            <h4 >ABOUT US</h4>
+            <p align="center">When you work with us,you are part of a team of committed collaborators.All aspects of our software development prcess are intergrated,interactive </p>
+            <p align="center">and agile</p>
+            <p align="center">Our approach unifies design,development and product management to create exceptional products</p>
+            <p align="center">We start wach project by undrstanding your business goals,user's needs and the products requirements</p>
+            <p align="center">Then we help translate them into effective and elegant solutions</p>
+          
 
         </div>
 
@@ -48,10 +55,12 @@
         <div class="col-md-12">
 
             <div class="card bg-dark text-white">
-                <img src="/IMAGES/s_image.jpg" class="card-img" alt="..." >
+                <img src="/IMAGES/s_image.jpg" class="card-img"  >
                 <div class="card-img-overlay">
                   <h5 class="card-title">SERVICES</h5>
-                  <p class="card-text">This is a wi additional content. This content is a little bit longer.</p>
+                  <p class="card-text">Before we sign a contract or write a line of code our team will spend the neccesary time possible to understand your product vision</p>
+                  <p align="center">The outcome of this scoping session is  a proposal or high-level statement of work</p>
+                  <p align="center">based on your requirments,we can provide a complete offering or just the pieces you need</p>
                   <p class="card-text">Last updated 3 mins ago</p>
                 </div>
               </div>         
@@ -62,68 +71,98 @@
     </div>
 
 <!---------------------------------------------------------------what we do------------------>
-<div class="row" id="wettin">
-    <div class="col-md-4">
-        <h5>WHAT WE DO</h5>
-        <img src="/IMAGES/design_icon.png" class="rounded float-start" alt="...">
-        
-        <img src="/IMAGES/dev_icon.png" class="rounded float-start" alt="...">
-        <img src="/IMAGES/product_icon.png" class="rounded float-start" alt="...">
-
-
-       
-
+<div class="whatWeDo">
+  <br>
+    <h4 style="text-align: center;">WHAT WE DO</h4>
+    <div class="row">
+      <div class="col-md-4" id="design">
+        <div class="hide-design-image">
+          <img src="/IMAGES/design_icon.png" >
+        </div>
+          <p>DESIGN</p>
+          <p class="hide" id="show">
+              Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+              Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+      </div>
+      <div class="col-md-4" id="development">
+        <div class="hide-development-image">
+            <img src="IMAGES/dev_icon.png" >
+        </div>
+          <p>DEVELOPMENT</p>
+          <p class="hide" id="show">
+              All engineers are fluent in the latest enterprise, mobile and web development technologies.
+              They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
+      </div>
+      <div class="col-md-4" id="productManagement">
+        <div class="hide-product-management">
+            <img src="/IMAGES/product_icon.png">
+        </div>  
+          <p>PRODUCT MANAGEMENT</p>
+          <p class="hide" id="show">
+                Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+                This iterative process allows for changes as business requirements evolve.</p>
+      </div>
     </div>
-
 </div>
 
 
-
 <!-----------------------------------------------portfolio---------------------------------------------------->
-<div class="row" id="portfolio">
-    <div class="col-md-12">
-        <h5>PORTFOLIO</h5>
-        <div class="card-group" id="cd1">
-          <div class="card">
-            <img src="/IMAGES/1.jpg" class="card-img-top" width="">
-            
-          </div>
-          <div class="card">
-            <img src="/IMAGES/2.jpg" class="card-img-top" width="100px">
-            
-          </div>
-          <div class="card">
-            <img src="/IMAGES/3.jpg" class="card-img-top" width="100px">
-           
-          </div>
-          <div class="card">
-            <img src="/IMAGES/4.jpg" class="card-img-top" width="100px">
-           
-          </div>
 
-        </div>
-        <div class="card-group" id="cd2">
-          <div class="card">
-            <img src="/IMAGES/5.jpg" class="card-img-top" width="100px">
-            
-          </div>
-          <div class="card">
-            <img src="/IMAGES/6.jpg" class="card-img-top" width="100px">
-           
-          </div>
-          <div class="card">
-            <img src="/IMAGES/7.jpg" class="card-img-top" width="100px">
-            
-          </div>
-          <div class="card">
-            <img src="/IMAGES/8.jpg" class="card-img-top" width="100px">
-            
-          </div>
-        </div>
-       
-
-    </div> 
-</div> 
+<div class="Portfolio">
+  <h4 style="text-align: center;">PORTFOLIO</h4>
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work1">
+        <img src="/IMAGES/1.jpg" width="100%">
+      <div class="Hover">
+       <p>ONE</p>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work2">
+        <img src="IMAGES/2.jpg" width="100%">
+      <div class="Hover">
+        <p>TWO</p>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work3">
+        <img src="/IMAGES/3.jpg" width="100%">
+      <div class="Hover">
+        <p>THREE</p>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images " id="work4">
+        <img src="/IMAGES/4.jpg" width="100%">
+      <div class="Hover">
+        <p>FOUR</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work5">
+        <img src="/IMAGES/5.jpg" width="100%"> 
+      <div class="Hover">
+          <p>FIVE</p>
+      </div> 
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work6">
+        <img src="/IMAGES/6.jpg" width="100%">
+      <div class="Hover">
+        <p >SIX</p>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work7">
+        <img src="/IMAGES/7.jpg" width="100%">
+      <div class="Hover">
+        <p>SEVEN</p>
+      </div>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-3 custom-info-on-portfolio-images" id="work8">
+        <img src="/IMAGES/8.jpg" width="100%">
+      <div class="Hover">
+        <p>EIGHT</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
@@ -133,7 +172,7 @@
 <div class="row"  id="contacts">
   <div class="col-md-12">
     <div class="card bg-dark text-white">
-      <img src="/IMAGES/c_image.jpg" class="card-img" alt="...">
+      <img src="/IMAGES/c_image.jpg" class="card-img" >
       <div class="card-img-overlay">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -145,33 +184,41 @@
   </div>
 
 <!--------------------------------------------------------social cites -------------------->
-
-<div class="row" id="social">
-  <div class="col-md-12">
-    <img src="/IMAGES/1ss.png" class="img-thumbnail" alt="...">
-    <img src="/IMAGES/2ss.png" class="img-thumbnail" alt="...">
-    <img src="/IMAGES/3ss.png" class="img-thumbnail" alt="...">
-    <img src="/IMAGES/4ss.png" class="img-thumbnail" alt="...">
-    <img src="/IMAGES/5ss.png" class="img-thumbnail" alt="...">
-    <img src="/IMAGES/6ss.png" class="img-thumbnail" alt="...">
-    <img src="/IMAGES/7ss.png" class="img-thumbnail" alt="...">
-    <img src="/IMAGES/8ss.png" class="img-thumbnail" alt="...">
-    
-
-
-    
-
-
-    
-
-  </div>
-
+<div class="Footer" id="socialMediaIcons">
+  <br><br>
+  <!--Twitter-->
+  <img src="/IMAGES/1ss.png" alt="Twitter icon"><i class="fab fa-lg fa-twitter"></i></a>
+  <!--Dribbble-->
+  <img src="/IMAGES/2.jpg" alt="Dribble icon"><i class="fab fa-lg fa-dribbble"></i></a>
+   <!--Facebook-->
+  <img src="IMAGES/3ss.png" alt="Facebook icon">><i class="fab fa-lg fa-facebook-f"></i></a>
+  <!--Google -->
+  <img src="/IMAGES/4ss.png" alt="Google_plus icon"><i class="fab fa-lg fa-google-plus-g"></i></a>
+  <!--Skype-->
+  <img src="/IMAGES/5ss.png" alt="Skype icon"><i class="fab fa-lg fa-skype"></i></a>
+  <!--Stumble Upom-->
+  <img src="/IMAGES/6ss.png" alt="Stumble-upon icon"><i class="fab fa-lg fa-stumble-upon"></i></a>
+  <!--Behance-->
+  <img src="assets/social_icons/behance.png" alt="Behance icon"><i class="fab fa-lg fa-behance"></i></a>
+  <!--Pinterest-->
+  <img src="assets/social_icons/pinterest.png" alt="Pinterest icon"><i class="fab fa-lg fa-pinterest"></i></a>
+  <!--Flickr-->
+  <img src="assets/social_icons/flickr.png" alt="Flickr icon"><i class="fab fa-lg fa-flickr"></i></a>
+  <p>DELANI STUDIO<br>2019</p>
 </div>
+</div>
+
+
+
+    
+
+
+    
+
   
 
 
 
-<!---------------------------------------------social sites  ---------------------->
 
 </body>
 </html>
