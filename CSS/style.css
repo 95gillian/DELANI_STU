@@ -2,27 +2,31 @@ body{
     width: 100%;
     height: 100vh;
 }
-#aboutus{
+.aboutus{
     width: 100%;
     height: 50vh;
 }
-#aboutus h4{
+.aboutus h4{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#services{
+.services{
     width: 100%;
-    height: 50vh;
+    height: 100vh;
 
 }
-#services h5{
+.services h5{
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-#wettin{
+.services img{
+    width: 100%;
+    height: 100vh;
+}
+.whatwedo{
     width: 100%;
     height: 30vh;
     display: flex;
@@ -31,11 +35,11 @@ body{
 
 }
 
-#portfolio{
+.portfolio{
     width: 100%;
     height: 90vh;
 }
-#portfolio h5{
+.portfolio h5{
     display: flex;
     align-items: center;
     justify-content: center;
