@@ -1,27 +1,10 @@
 $(document).ready(function() {
-
-  $("#design").click(function(){
-    $("#show").toggle();
-    $(".hide").toggle();
+  $(".whatWeDo").click(function(){
+    $(span).toggle();
   })
 
-  $("#dev").click(function(){
-    $("#show").toggle();
-    $(".hide").toggle();
-  })
+  
 
-  $("#prod").click(function(){
-    $("#show").toggle();
-    $(".hide").toggle();
-  })
-
-  //Insert white box upo hover
-  $(".Hover").hover(function(){
-    $(this).animate({opacity:'1'});
-  },
-  function(){
-    $(this).animate({opacity:'0'});
-  })
 $('.submit').click(function () {
         var Name = $("#FNAME name").val();
         var Email = $("#EMAIL").val();
