@@ -2,10 +2,10 @@ body{
     width: 100%;
     height: 100vh;
     
-    font-family: 'Yantramanav', sans-serif;
+    
 }
 span{
-    visibility: hidden;
+    display: none;
 }
 
 
@@ -14,11 +14,38 @@ span{
     color: aqua;
 }
 #services{
-    background-image: url(backgrounds/s_image.jpg);
-  background-size: cover;
+    
   text-align: center;
   color: white;
   font-size: small;
   font-family: 'Yantramanav', sans-serif;
     
 }
+#BIG_C .card-text{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    background-color: transparent;
+    margin-top: 30%;
+    font-weight: 600;
+    font-size: medium;
+    color:transparent;
+
+
+}
+#BIG_C .card-text:hover{
+    cursor: pointer;
+    color: white ;
+    overflow: hidden;
+}
+.Portfolio .col-md-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
