@@ -4,6 +4,7 @@
     $("#design").click(function(){
       $("#design-showing").toggle();
       $(".hide-design-image").toggle();
+      
     })
   
     $("#development").click(function(){
