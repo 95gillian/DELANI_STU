@@ -14,10 +14,12 @@ span{
     color: aqua;
 }
 #services{
-    
+    background-image: url(/IMAGES/s_image.jpg);
+   width: 100%;
+   height: 20vh;
   text-align: center;
   color: white;
-  font-size: small;
+  font-size:xx-small;
   font-family: 'Yantramanav', sans-serif;
     
 }
